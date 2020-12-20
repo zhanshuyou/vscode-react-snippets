@@ -3,13 +3,23 @@
 	"icon": "assets/logo.png",
 	"displayName": "TS React Snippets",
 	"description": "typesctipt react snippets",
-	"version": "0.0.4",
+	"version": "0.0.8",
 	"publisher": "Shuyoou",
+	"keywords": [
+    "snippets",
+    "typescript",
+    "react",
+    "javascript",
+    "typescript",
+    "vscode",
+    "extension"
+  ],
 	"engines": {
 		"vscode": "^1.52.0"
 	},
 	"categories": [
-		"Snippets"
+		"Snippets",
+		"Other"
 	],
 	"activationEvents": [
         "onCommand:ts-react-snippets.tb"

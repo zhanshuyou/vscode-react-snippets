@@ -11,8 +11,8 @@ react typescript snippets
 
 ## example
 
-1. **tb-cc**
-```jsx
+### `tb-cc`
+```typescript
 import React from 'react'
 
 type Props = {}
@@ -24,11 +24,10 @@ export class ComponentName extends React.Component<Props, State> {
     
   }
 }
-
 ```
 
-2. **tb-cpc**
-```jsx
+### `tb-cpc`
+```typescript
 import React from 'react'
 
 type Props = {}
@@ -40,11 +39,10 @@ export class ComponentName extends React.PureComponent<Props, State> {
     
   }
 }
-
 ```
 
-3. **tb-fc**
-```jsx
+### `tb-fc`
+```typescript
 import React, { FC } from 'react'
 
 type Props = {}
@@ -54,7 +52,6 @@ export const ComponentName: FC<Props> = (props) => {
     
   )
 }
-
 ```
 
 
