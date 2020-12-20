@@ -3,7 +3,7 @@
 react typescript snippets
 
 
-|  表头   | 表头  |
+|  Snippet   | Purpose  |
 |  ----  | ----  |
 | tb-cc  | React Class Component  |
 | tb-cpc | React Class PureComponent |
