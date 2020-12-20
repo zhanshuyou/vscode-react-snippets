@@ -1,65 +1,61 @@
-# ts-react-snippets README
+# ts-react-snippets
 
-This is the README for your extension "ts-react-snippets". After writing up a brief description, we recommend including the following sections.
+react typescript snippets
 
-## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+|  表头   | 表头  |
+|  ----  | ----  |
+| tb-cc  | React Class Component  |
+| tb-cpc | React Class PureComponent |
+| tb-fc  | React FunctionComponent |
 
-For example if there is an image subfolder under your extension project workspace:
+## example
 
-\!\[feature X\]\(images/feature-x.png\)
+1. **tb-cc**
+```jsx
+import React from 'react'
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+type Props = {}
 
-## Requirements
+type State = {}
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+export class ComponentName extends React.Component<Props, State> {
+  render() {
+    
+  }
+}
 
-## Extension Settings
+```
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+2. **tb-cpc**
+```jsx
+import React from 'react'
 
-For example:
+type Props = {}
 
-This extension contributes the following settings:
+type State = {}
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+export class ComponentName extends React.PureComponent<Props, State> {
+  render() {
+    
+  }
+}
 
-## Known Issues
+```
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+3. **tb-fc**
+```jsx
+import React, { FC } from 'react'
 
-## Release Notes
+type Props = {}
 
-Users appreciate release notes as you update your extension.
+export const ComponentName: FC<Props> = (props) => {
+  return (
+    
+  )
+}
 
-### 1.0.0
+```
 
-Initial release of ...
 
-### 1.0.1
 
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**

@@ -1,8 +1,10 @@
 {
-  "name": "ts-react-snippets",
+	"name": "ts-react-snippets",
+	"icon": "",
 	"displayName": "TS React Snippets",
 	"description": "",
-	"version": "0.0.1",
+	"version": "0.0.2",
+	"publisher": "Shuyoou",
 	"engines": {
 		"vscode": "^1.52.0"
 	},
