@@ -3,7 +3,7 @@
 	"icon": "assets/logo.png",
 	"displayName": "TS React Snippets",
 	"description": "typesctipt react snippets",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"publisher": "Shuyoou",
 	"keywords": [
     "snippets",
@@ -35,8 +35,12 @@
     "snippets": [
       {
           "language": "typescript",
-          "path": "./snippets/snippets.code-snippets"
-      }
+          "path": "snippets/snippets.code-snippets"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "snippets/snippets.code-snippets"
+			}
     ]
 	},
 	"scripts": {
