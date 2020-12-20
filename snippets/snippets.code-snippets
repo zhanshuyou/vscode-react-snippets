@@ -1,0 +1,43 @@
+{
+  "Class Component": {
+    "prefix": ["tb-cc"],
+    "body": [
+      "import React from 'react'\n",
+      "type Props = {}\n",
+      "type State = {}\n",
+      "export class ${1:ComponentName} extends React.Component<Props, State> {",
+      "\trender() {",
+      "\t\t$0",
+      "\t}",
+      "}\n",
+    ],
+    "description": "React Class Component"
+  },
+  "Pure Component": {
+    "prefix": ["tb-cpc"],
+    "body": [
+      "import React from 'react'\n",
+      "type Props = {}\n",
+      "type State = {}\n",
+      "export class ${1:ComponentName} extends React.PureComponent<Props, State> {",
+      "\trender() {",
+      "\t\t$0",
+      "\t}",
+      "}\n",
+    ],
+    "description": "React Class PureComponent"
+  },
+  "Function Component": {
+    "prefix": ["tb-fc"],
+    "body": [
+      "import React, { FC } from 'react'\n",
+      "type Props = {}\n",
+      "export const ${1:ComponentName}: FC<Props> = (props) => {",
+      "\treturn (",
+      "\t\t$0",
+      "\t)",
+      "}\n",
+    ],
+    "description": "React FunctionComponent"
+  },
+}
