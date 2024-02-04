@@ -54,5 +54,5 @@ export const ComponentName: FC<Props> = (props) => {
 }
 ```
 
-
+[Publishing Extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
 
